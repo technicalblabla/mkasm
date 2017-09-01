@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int base, exponent;
+    int b,e;
 
     long long result = 1;
 
     printf("Enter a base number: ");
-    scanf("%d", &base);
+    scanf("%d", &b);
 
     printf("Enter an exponent: ");
-    scanf("%d", &exponent);
+    scanf("%d", &e);
 
-    while (exponent != 0)
+    while (e != 0)
     {
-        result *= base;
-        --exponent;
+        result *= b;
+        --e;
     }
 
     printf("Answer = %lld", result);
