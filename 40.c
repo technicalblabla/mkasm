@@ -15,5 +15,5 @@ int main()
         s1 = s2;
         s2 = nt;
     }
-    return 0;
+    
 }
