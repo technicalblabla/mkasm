@@ -11,4 +11,5 @@ for(i=0;i<=k;i++)
 {
 printf("%s",a);
 }
+  return 0;
 }
