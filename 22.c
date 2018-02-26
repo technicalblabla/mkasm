@@ -3,7 +3,7 @@ int max(int array[50],int n);
 int main(void) 
 {
 	int array[50];
-	int i,result,n;
+	int i,res,n;
 	printf("no of elements in the array");
 	scanf("%d",&n);
 	printf("\narray\n");
@@ -12,8 +12,8 @@ int main(void)
 	scanf("%d",&array[i]);
 	printf("%d ",array[i]);
 	}
-	result=max(array,n);
-	printf("\n%d",result);
+	res=max(array,n);
+	printf("\n%d",res);
 	return 0;
 }
 int max(int array[50],int n)
@@ -26,6 +26,8 @@ int max(int array[50],int n)
 	{
 		mx=array[i];
 	}
+		
 	}
+
 	return (mx);
 }	
